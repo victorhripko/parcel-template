@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/*.pug",
-    "build": "parcel build src/*.pug"
+    "dev": "rm -rf dist; rm -rf .parcel-cache; parcel src/*.pug",
+    "build": "rm -rf dist; rm -rf .parcel-cache; parcel build src/*.pug"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "2.0.0-rc.0",
