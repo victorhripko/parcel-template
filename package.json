@@ -1,0 +1,19 @@
+{
+  "name": "parcel-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/*.pug",
+    "build": "parcel build src/*.pug"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.0.0-rc.0",
+    "@parcel/transformer-sass": "2.0.0-rc.0",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.8",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.6",
+    "postcss-sort-media-queries": "^3.11.12"
+  }
+}
